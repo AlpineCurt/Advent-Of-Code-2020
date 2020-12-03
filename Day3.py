@@ -24,7 +24,7 @@ def tree_repeat(tree_patterns):
 
 def tree_hit_count(tree_pattern, right, down):
     '''Starting at index 0 of first item in tree_pattern, this checks
-    if you encounter a tree (#) or not (.)  This then checks three
+    if you encounter a tree (#) or not (.)  This then checks "right"
     indices ahead in the next item and so on, tallying the total trees
     encountered and returns the result.'''
     

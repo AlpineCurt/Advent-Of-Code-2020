@@ -63,8 +63,6 @@ print('Part 1 Total Valid Passports: ', valids)
 #### Part 2 ####
 
 def valid_passport_part2(passport):
-    '''passport parameter is a dict.  A passport is valid if it has eight unique
-    keys.  If it has seven and key 'cid' is missing, still returns True.'''
     
     if len(passport) <= 6:
         return False
